@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "aiflowsdk"
+rootProject.name = "convokitai"
 include(":app")
-include(":aiflowsdk")
+include(":convokitai")
