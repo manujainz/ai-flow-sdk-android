@@ -11,7 +11,7 @@ interface ChatSession {
     /**
      * Sends a user message within the session and returns the AI-generated response.
      *
-     * @param request The current user message encapsulated in an AIFlowRequest.
+     * @param request The current user message encapsulated in an ConvoKitRequest.
      * @return The AI-generated response.
      */
     suspend fun sendMessage(request: ConvoKitRequest): ConvoKitResponse
@@ -19,7 +19,7 @@ interface ChatSession {
     /**
      * Streams the AI's responses for the current message as a Flow.
      *
-     * @param request The current user message encapsulated in an AIFlowRequest.
+     * @param request The current user message encapsulated in an ConvoKitRequest.
      * @return A Flow emitting AI-generated responses.
      */
     fun streamMessage(request: ConvoKitRequest): Flow<ConvoKitResponse>
