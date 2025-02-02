@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.manujain.aiflowsdk"
+    namespace = "com.manujain.convokitai"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.manujain.aiflowsdk"
+        applicationId = "com.manujain.convokitai"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

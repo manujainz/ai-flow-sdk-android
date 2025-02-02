@@ -1,7 +1,7 @@
 package com.manujain.convokitai.core
 
 /**
- * The top-level interface for AIFlowSDK.
+ * The top-level interface for ConvoKitAI.
  * It manages sessions by initializing and closing chat sessions.
  */
 interface ConvoKitAI {
