@@ -1,4 +1,4 @@
-package com.manujain.convokitai.core
+package com.manujain.convoaikit.core
 
 import kotlinx.coroutines.flow.Flow
 
@@ -14,7 +14,7 @@ interface ChatSession {
      * @param request The current user message encapsulated in an ConvoKitRequest.
      * @return The AI-generated response.
      */
-    suspend fun sendMessage(request: ConvoKitRequest): ConvoKitResponse
+    suspend fun sendMessage(request: ConvoAIKitRequest): ConvoAIKitResponse
 
     /**
      * Streams the AI's responses for the current message as a Flow.
@@ -22,5 +22,5 @@ interface ChatSession {
      * @param request The current user message encapsulated in an ConvoKitRequest.
      * @return A Flow emitting AI-generated responses.
      */
-    fun streamMessage(request: ConvoKitRequest): Flow<ConvoKitResponse>
+    fun streamMessage(request: ConvoAIKitRequest): Flow<ConvoAIKitResponse>
 }

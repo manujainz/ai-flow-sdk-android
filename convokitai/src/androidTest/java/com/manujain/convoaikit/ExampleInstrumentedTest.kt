@@ -1,4 +1,4 @@
-package com.manujain.convokitai
+package com.manujain.convoaikit
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.manujain.convokitai.test", appContext.packageName)
+        assertEquals("com.manujain.convoaikit.test", appContext.packageName)
     }
 }

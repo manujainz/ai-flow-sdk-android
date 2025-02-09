@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.manujain.convokitai"
+    namespace = "com.manujain.convoaikit"
     compileSdk = 34
 
     defaultConfig {

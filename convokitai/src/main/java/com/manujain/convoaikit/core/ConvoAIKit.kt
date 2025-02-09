@@ -1,10 +1,10 @@
-package com.manujain.convokitai.core
+package com.manujain.convoaikit.core
 
 /**
- * The top-level interface for ConvoKitAI.
+ * The top-level interface for ConvoAIKit.
  * It manages sessions by initializing and closing chat sessions.
  */
-interface ConvoKitAI {
+interface ConvoAIKit {
 
     /**
      * Initializes a new chat session with the given session ID.

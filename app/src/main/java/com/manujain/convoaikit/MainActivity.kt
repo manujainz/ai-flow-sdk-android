@@ -1,4 +1,4 @@
-package com.manujain.convokitai
+package com.manujain.convoaikit
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

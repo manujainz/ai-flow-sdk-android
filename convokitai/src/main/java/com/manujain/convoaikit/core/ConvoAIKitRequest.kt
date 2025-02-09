@@ -1,4 +1,4 @@
-package com.manujain.convokitai.core
+package com.manujain.convoaikit.core
 
 /**
  * Represents a request for AI inference.
@@ -6,7 +6,7 @@ package com.manujain.convokitai.core
  * @property prompt The input text or query for inference.
  * @property options Additional configuration options (e.g., model, temperature).
  */
-data class ConvoKitRequest(
+data class ConvoAIKitRequest(
     val prompt: String,
     val options: Map<String, Any>? = null
 )

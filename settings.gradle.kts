@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "convokitai"
+rootProject.name = "convoaikit"
 include(":app")
-include(":convokitai")
+include(":convoaikit")
