@@ -1,5 +1,7 @@
-package com.manujain.convoaikit.core
+package com.manujain.convoaikit.session
 
+import com.manujain.convoaikit.networking.ConvoAIKitRequest
+import com.manujain.convoaikit.networking.ConvoAIKitResponse
 import kotlinx.coroutines.flow.Flow
 
 /**

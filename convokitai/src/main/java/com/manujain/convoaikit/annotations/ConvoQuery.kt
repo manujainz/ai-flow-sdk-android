@@ -7,4 +7,4 @@ package com.manujain.convoaikit.annotations
  */
 @Target(AnnotationTarget.FIELD)
 @Retention(AnnotationRetention.RUNTIME)
-annotation class ConvoAIQuery(val value: String = "")
+annotation class ConvoQuery(val value: String = "")

@@ -5,4 +5,4 @@ package com.manujain.convoaikit.annotations
  */
 @Target(AnnotationTarget.FIELD)
 @Retention(AnnotationRetention.RUNTIME)
-annotation class ConvoAIBody
+annotation class ConvoRequest

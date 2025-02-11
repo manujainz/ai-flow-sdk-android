@@ -7,5 +7,5 @@ package com.manujain.convoaikit.annotations
  */
 @Target(AnnotationTarget.FIELD)
 @Retention(AnnotationRetention.RUNTIME)
-annotation class ConvoAIHeader(val value: String = "") {
+annotation class ConvoHeader(val value: String = "") {
 }

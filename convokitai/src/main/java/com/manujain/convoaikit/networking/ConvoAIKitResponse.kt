@@ -1,4 +1,4 @@
-package com.manujain.convoaikit.core
+package com.manujain.convoaikit.networking
 
 /**
  * Represents a response from AI inference.
